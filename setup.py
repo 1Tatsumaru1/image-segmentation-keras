@@ -16,7 +16,7 @@ setup(name="keras_segmentation",
       author_email='divamgupta@gmail.com',
       platforms=["any"],  # or more specific, e.g. "win32", "cygwin", "osx"
       license="GPLv3",
-      url="https://github.com/divamgupta/image-segmentation-keras",
+      url="https://github.com/1Tatsumaru1/image-segmentation-keras",
       packages=find_packages(exclude=["test"]),
       entry_points={
             'console_scripts': [
@@ -24,7 +24,7 @@ setup(name="keras_segmentation",
             ]
       },
       install_requires=[
-            "h5py<=2.10.0",
+            "h5py",
             "Keras"+keras_ver,
             "imageio==2.5.0",
             "imgaug>=0.4.0",
