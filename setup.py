@@ -9,7 +9,7 @@ if sys.version_info.major < 3:
       keras_ver = "<=2.3.0"
 
 
-setup(name="keras_segmentation",
+setup(name="keras_sgmt",
       version="0.3.0",
       description="Image Segmentation toolkit for keras",
       author="Divam Gupta",
